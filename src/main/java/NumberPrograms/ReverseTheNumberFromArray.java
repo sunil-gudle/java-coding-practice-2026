@@ -2,7 +2,7 @@ package NumberPrograms;
 
 // reverse the number from array using for loop
 
-public class ReverseTheNumber {
+public class ReverseTheNumberFromArray {
     public static void main(String[] args) {
         int[] num = {1, 2, 3, 4, 5, 6};
         int arrLength = num.length;
