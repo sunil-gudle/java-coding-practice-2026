@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CountDigits {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please eneter the number: ");
+        System.out.print("Please eneter the number: ");
         int num = scanner.nextInt();
 
         int count = digitCount(num);
@@ -19,7 +19,7 @@ public class CountDigits {
             return 1;
         while (n != 0) {
             n = n / 10;
-            ++digit_count ;
+            digit_count++ ;
         }
         return digit_count;
     }
